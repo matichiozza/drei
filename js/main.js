@@ -78,6 +78,6 @@ const form = document.querySelector('#myForm');
     }
 
     // si todos los campos son válidos, envía el formulario
-    form.submit();
-    window.location.href = "enviado.html";
+      form.submit();
+      //window.location.href = "enviado.html";
   });

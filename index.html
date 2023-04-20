@@ -7,9 +7,10 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta content="" name="keywords" />
   <meta content="" name="description" />
+  <meta>
 
   <!-- Favicon -->
-  <link href="img/favicon.ico" rel="icon" />
+  <link href="img/favicon.png" rel="icon" />
 
   <!-- Google Web Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -47,7 +48,8 @@
         </div>
         <div class="h-100 d-inline-flex align-items-center border-end px-3">
           <small class="far fa-envelope-open me-2"></small>
-          <small><a style="text-decoration: none; color: #8D9297;" href="mailto:Info@drei-ingenieria.com">Info@drei-ingenieria.com</a></small>
+          <small><a style="text-decoration: none; color: #8D9297;"
+              href="mailto:Info@drei-ingenieria.com">Info@drei-ingenieria.com</a></small>
         </div>
         <div class="h-100 d-inline-flex align-items-center border-end px-3">
           <small class="far fa-clock me-2"></small>
@@ -200,7 +202,7 @@
         <div class="position-relative">
           <img class="img-fluid w-100 maxheight" src="img/fact-1.jpg" alt="" />
           <div class="facts-overlay">
-            <h4 class="display-1 text-white py-3 text-center titulo">Misión</h4> 
+            <h4 class="display-1 text-white py-3 text-center titulo">Misión</h4>
             <p class="text-white text-center">
               Desarrollar una compañía que pueda fusionar eficiencia, vocación de servicio e innovación tecnológica, con
               la experiencia y el know how sustentado en nuestros profesionales de reconocida trayectoria, buscando
@@ -213,7 +215,7 @@
         <div class="position-relative">
           <img class="img-fluid w-100 maxheight" src="img/fact-2.jpg" alt="" />
           <div class="facts-overlay">
-            <h4 class="display-1 text-white py-3 text-center titulo">Visión</h4> 
+            <h4 class="display-1 text-white py-3 text-center titulo">Visión</h4>
             <p class="text-white text-center">
               Ser una empresa de primera línea en servicios especializados y soluciones tecnológicas, con alto valor
               agregado para nuestros clientes, reconocidos y elegidos por la calidad de nuestras propuestas y el
@@ -226,7 +228,7 @@
         <div class="position-relative">
           <img class="img-fluid w-100 maxheight" src="img/fact-3.jpg" alt="" />
           <div class="facts-overlay">
-            <h4 class="display-1 text-white py-3 text-center titulo">Objetivo</h4> 
+            <h4 class="display-1 text-white py-3 text-center titulo">Objetivo</h4>
             <p class="text-white text-center">
               Buscamos un crecimiento sostenible cumpliendo con responsabilidad ante nuestro personal y clientes, con
               una cultura de empresa enfocada en compromiso, creatividad, responsabilidad y trabajo en equipo para
@@ -243,7 +245,7 @@
         <div class="position-relative">
           <img style="max-height: 350px; object-fit: cover" class="img-fluid w-100" src="img/fact-1.jpg" alt="" />
           <div class="facts-overlay">
-            <h4 class="display-1 text-white py-4 text-center">Misión</h4> 
+            <h4 class="display-1 text-white py-4 text-center">Misión</h4>
             <p class="text-white text-center">
               Desarrollar una compañía que pueda fusionar eficiencia, vocación de servicio e innovación tecnológica, con
               la experiencia y el know how sustentado en nuestros profesionales de reconocida trayectoria, buscando
@@ -256,7 +258,7 @@
         <div class="position-relative">
           <img style="max-height: 350px; object-fit: cover" class="img-fluid w-100" src="img/fact-2.jpg" alt="" />
           <div class="facts-overlay">
-            <h4 class="display-1 text-white py-4 text-center">Visión</h4> 
+            <h4 class="display-1 text-white py-4 text-center">Visión</h4>
             <p class="text-white text-center">
               Ser una empresa de primera línea en servicios especializados y soluciones tecnológicas, con alto valor
               agregado para nuestros clientes, reconocidos y elegidos por la calidad de nuestras propuestas y el
@@ -479,43 +481,51 @@
           </p>
         </div>
         <div class="col-lg-7 col-md-6 wow fadeIn" data-wow-delay="0.5s">
-          <form id="myForm">
+          <form id="myForm" action="https://formsubmit.co/matiaschiozza45@gmail.com" method="POST">
             <div class="row g-3">
               <div class="col-sm-6">
                 <div class="form-floating">
-                  <input type="text" class="form-control bg-dark border-0" id="name" placeholder="Guardian Name" />
+                  <input type="text" name="Nombre" class="form-control bg-dark border-0" id="name"
+                    placeholder="Guardian Name" />
                   <label for="name">Nombre</label>
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="form-floating">
-                  <input type="text" class="form-control bg-dark border-0" id="phone" placeholder="Child Name" />
+                  <input type="tel" name="Celular" class="form-control bg-dark border-0" id="phone"
+                    placeholder="Child Name" />
                   <label for="phone">Telefono</label>
                 </div>
               </div>
               <div class="col-sm-12">
                 <div class="form-floating">
-                  <input type="email" class="form-control bg-dark border-0" id="mail" placeholder="Guardian Email" />
+                  <input type="email" name="Correo Electrónico" class="form-control bg-dark border-0" id="mail"
+                    placeholder="Guardian Email" />
                   <label for="mail">Correo electrónico</label>
                 </div>
               </div>
               <div class="col-12">
                 <div class="form-floating">
-                  <textarea class="form-control bg-dark border-0" placeholder="Leave a message here" id="message"
-                    style="height: 100px;"></textarea>
+                  <textarea name="Mensaje" class="form-control bg-dark border-0" placeholder="Leave a message here"
+                    id="message" style="height: 100px;"></textarea>
                   <label for="message">Mensaje</label>
                 </div>
               </div>
               <div class="col-12">
-                <button class="btn btn-primary w-100 py-3 " type="submit">
+                <button class="btn btn-primary w-100 py-3" type="submit">
                   Enviar formulario
                 </button>
               </div>
             </div>
+            <input type="hidden" name="_next" value="http://drei-ingenieria.com/enviado.html">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="Nueva consulta">
+            <input type="hidden" name="_autoresponse" value="Este es el mensaje:">
           </form>
         </div>
       </div>
     </div>
+  </div>
   </div>
   <!-- Formulario -->
 

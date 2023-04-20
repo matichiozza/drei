@@ -389,29 +389,29 @@
           </p>
         </div>
         <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-          <form id="myForm">
+          <form id="myForm" action="https://formsubmit.co/matiaschiozza45@gmail.com" method="POST">
             <div class="row g-3">
               <div class="col-sm-6">
                 <div class="form-floating">
-                  <input type="text" class="form-control bg-light border-0" id="name" placeholder="Gurdian Name" />
+                  <input type="text" name="Nombre" class="form-control bg-light border-0" id="name" placeholder="Gurdian Name" />
                   <label for="name">Nombre</label>
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="form-floating">
-                  <input type="text" class="form-control bg-light border-0" id="phone" placeholder="Child Name" />
+                  <input type="tel" name="Celular" class="form-control bg-light border-0" id="phone" placeholder="Child Name" />
                   <label for="phone">Teléfono</label>
                 </div>
               </div>
               <div class="col-sm-12">
                 <div class="form-floating">
-                  <input type="email" class="form-control bg-light border-0" id="mail" placeholder="Gurdian mail" />
+                  <input type="email" name="Correo Electrónico" class="form-control bg-light border-0" id="mail" placeholder="Gurdian mail" />
                   <label for="mail">Correo electrónico</label>
                 </div>
               </div>
               <div class="col-12">
                 <div class="form-floating">
-                  <textarea class="form-control bg-light border-0" placeholder="Leave a message here" id="message"
+                  <textarea name="Mensaje" class="form-control bg-light border-0" placeholder="Leave a message here" id="message"
                     style="height: 100px"></textarea>
                   <label for="message">Mensaje</label>
                 </div>
@@ -421,6 +421,10 @@
                   Enviar formulario
                 </button>
               </div>
+              <input type="hidden" name="_next" value="http://drei-ingenieria.com/enviado.html">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="Nueva consulta">
+            <input type="hidden" name="_autoresponse" value="Este es el mensaje:">
             </div>
           </form>
         </div>
